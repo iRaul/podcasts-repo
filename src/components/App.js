@@ -6,58 +6,71 @@ import Container from './Container';
 import Headline from './Headline';
 import Podcast from './Podcast';
 import List from './List';
+import Nav from './Nav';
 
 import design from '../data/design';
+import dev from '../data/dev';
 
 import './Tabs.css';
 
-class App extends Component {
-  render() {
-    return (
-      <Container>
-        <Headline />
+const App = () => (
+  <>
+    <Nav />
 
-        <Tabs>
-          <TabList>
-            <Tab>All</Tab>
-            <Tab>Design</Tab>
-            <Tab>Web Dev</Tab>
-            <Tab>Others</Tab>
-          </TabList>
+    <Container>
+      <Headline />
 
-          <TabPanel>
-            <List>
-              <h1>All</h1>
-            </List>
-          </TabPanel>
+      <Tabs>
+        <TabList>
+          <Tab>All</Tab>
+          <Tab>Design</Tab>
+          <Tab>Web Dev</Tab>
+          <Tab>Others</Tab>
+        </TabList>
 
-          <TabPanel>
-            <List>
-              {
-                design.map((item, index) => (
-                  <Podcast
-                    key={ index }
-                    image={ item.image }
-                    title={ item.title }
-                    description={ item.description }
-                  />
-                ))
-              }
-            </List>
-          </TabPanel>
+        <TabPanel>
+          <List>
+            <h1>All</h1>
+          </List>
+        </TabPanel>
 
-          <TabPanel>
-            <h2>Any Content 3</h2>
-          </TabPanel>
+        <TabPanel>
+          <List>
+            {
+              design.map((item, index) => (
+                <Podcast
+                  key={ index }
+                  image={ item.image }
+                  title={ item.title }
+                  description={ item.description }
+                />
+              ))
+            }
+          </List>
+        </TabPanel>
 
-          <TabPanel>
-            <h2>Any Content 4</h2>
-          </TabPanel>
-        </Tabs>
+        <TabPanel>
+          <List>
+            {
+              dev.map((item, index) => (
+                <Podcast
+                  key={ index }
+                  image={ item.image }
+                  title={ item.title }
+                  description={ item.description }
+                />
+              ))
+            }
+          </List>
+        </TabPanel>
 
-      </Container>
-    );
-  }
-}
+        <TabPanel>
+          <h2>Any Content 4</h2>
+        </TabPanel>
+      </Tabs>
+
+    </Container>
+  </>
+);
 
 export default App;

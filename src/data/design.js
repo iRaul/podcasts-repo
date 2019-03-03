@@ -44,6 +44,11 @@ const design = [
     description: "Discussions about: Branding, Design, Business and User Experience design.",
     image: "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/61/9b/9a/619b9a9c-1ddc-52c0-f859-0593f75b4cae/source/1200x630bb.jpg"
   },
+  {
+    title: "Layout",
+    description: "A weekly podcast about design, technology and everything else.",
+    image: "https://layout.fm/assets/artwork-spec.png"
+  },
 
 ];
 
