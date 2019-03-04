@@ -4,12 +4,11 @@ import styled from 'styled-components';
 import logo from '../static/logo-3.svg';
 
 const Navbar = styled.nav`
-  padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0 auto 60px;
 
   a {
     text-decoration: none;
