@@ -6,12 +6,16 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 900;
   margin-top: 0;
   margin-bottom: 6px;
   color: rgba(0, 0, 0, 1);
   position: relative;
+
+  @media (max-width: 992px) {
+    font-size: 45px;
+  }
 `;
 
 const SubTitle = styled.h2`
@@ -20,6 +24,10 @@ const SubTitle = styled.h2`
   margin-top: 0;
   margin-bottom: 0;
   color: rgba(0, 0, 0, 0.5);
+
+  @media (max-width: 992px) {
+    font-size: 24px;
+  }
 `;
 
 const Headline = () => (

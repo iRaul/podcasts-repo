@@ -26,6 +26,12 @@
   transition: all .15s ease;
 }
 
+@media (max-width: 576px) {
+  .react-tabs__tab:first-child {
+    margin-bottom: 10px;
+  }
+}
+
 .react-tabs__tab:hover {
   transform: translateY(-1px);
   box-shadow: 0 7px 14px rgba(50, 50, 93, .1),

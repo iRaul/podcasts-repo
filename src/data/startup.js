@@ -1,5 +1,3 @@
-// entrp = entrepreneurship
-
 const startup = [
   {
     title: "Indie Hackers",
@@ -46,7 +44,7 @@ const startup = [
   {
     title: "Masters of Scale",
     description: "Legendary entrepreneur Reid Hoffman tests his theories with famous founders",
-    image: "https://gdurl.com/jxz7",
+    image: "https://gdurl.com/DmTU",
     website: "https://mastersofscale.com/"
   },
   {

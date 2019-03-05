@@ -19,7 +19,7 @@ const dev = [
   },
   {
     title: "The Big Web Show",
-    description: "Topics like web publishing, content strategy, typography, web technology, and more.",
+    description: "Web publishing, content strategy, typography, web technology, and more.",
     image: "https://gdurl.com/Ttaj",
     website: "http://5by5.tv/bigwebshow"
   },

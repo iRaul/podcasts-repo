@@ -4,11 +4,26 @@ import styled from 'styled-components';
 import logo from '../static/logo-3.svg';
 
 const Navbar = styled.nav`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 4px 8px;
+  background: #FFF;
+  padding: 15px 0;
   width: 100%;
-  margin: 0 auto 60px;
+  margin: 0 auto 30px;
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 992px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
 
   a {
     text-decoration: none;
@@ -19,22 +34,29 @@ const Navbar = styled.nav`
       color: #4FACFE;
     }
   }
+
+  @media (max-width: 992px) {
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
 `;
 
 const Nav = () => (
   <Navbar>
-    <img
-      width='50'
-      height='50'
-      src={ logo }
-      alt='Logo' />
+    <div>
+      <img
+        src={ logo }
+        alt='Logo' />
 
-    <a
-      href='https://github.com/iRaul/podcasts-repo'
-      target='_blank'
-      rel='noopener noreferrer'>
-      Contribute
-    </a>
+      <a
+        href='https://github.com/iRaul/podcasts-repo'
+        target='_blank'
+        rel='noopener noreferrer'>
+        Contribute
+      </a>
+    </div>
   </Navbar>
 
 );
