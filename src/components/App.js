@@ -48,7 +48,7 @@ class App extends Component {
                     image={ item.image }
                     title={ item.title }
                     description={ item.description }
-                    website={ item.website }
+                    url={ item.url }
                   />
                 ))
               }
