@@ -6,11 +6,21 @@ const Wrapper = styled.footer`
   font-size: 16px;
   color: rgba(0, 0, 0, 0.5);
   margin-top: 40px;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+  }
 `;
 
 const Footer = () => (
   <Wrapper>
-    All thumbnails © of their respective owners
+    <p>All thumbnails © of their respective owners.</p>
+    <p>Built by <a href='https://twitter.com/raul_dronca'>Raul Dronca</a>.</p>
   </Wrapper>
 );
 
