@@ -26,3 +26,13 @@ body {
 p {
   line-height: 1.4;
 }
+
+::selection {
+  background: #4FACFE;
+  color: #FFF;
+}
+
+::-moz-selection {
+  background: #4FACFE;
+  color: #FFF;
+}
