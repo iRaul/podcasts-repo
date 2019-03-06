@@ -20,5 +20,3 @@ npm start / yarn start
 npm run build / yarn build
 ```
 
-### Dev Dependencies 🛠
-- [Styled Components](https://www.styled-components.com/)
