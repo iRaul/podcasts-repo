@@ -64,6 +64,7 @@ class App extends Component {
                     image={ item.image }
                     title={ item.title }
                     description={ item.description }
+                    url={ item.url }
                   />
                 ))
               }
@@ -79,6 +80,7 @@ class App extends Component {
                     image={ item.image }
                     title={ item.title }
                     description={ item.description }
+                    url={ item.url }
                   />
                 ))
               }
@@ -94,6 +96,7 @@ class App extends Component {
                     image={ item.image }
                     title={ item.title }
                     description={ item.description }
+                    url={ item.url }
                   />
                 ))
               }
