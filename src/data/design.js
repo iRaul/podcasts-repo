@@ -65,6 +65,12 @@ const design = [
     image: "https://gdurl.com/QiAo",
     url: "https://design.google/library/podcasts/"
   },
+  {
+    title: "Design Matters",
+    description: "The show is about how incredibly creative people design the arc of their lives.",
+    image: "https://gdurl.com/Idoc",
+    url: "https://www.designmattersmedia.com/designmatters"
+  },
 
 ];
 
