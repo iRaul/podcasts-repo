@@ -45,13 +45,13 @@ const dev = [
     title: "Developer Tea",
     description: "A podcast for developers designed to fit inside your tea break.",
     image: "https://gdurl.com/8js1",
-    url: "https://google.com"
+    url: "https://spec.fm/podcasts/developer-tea"
   },
   {
     title: "JS Party",
     description: "A community celebration of JavaScript and the web.",
     image: "https://gdurl.com/pIeTP",
-    url: "https://spec.fm/podcasts/developer-tea"
+    url: "https://changelog.com/jsparty"
   },
   {
     title: "The Web Platform",
