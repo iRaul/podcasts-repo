@@ -29,6 +29,7 @@ const Image = styled.div`
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #f6f7f8;
   height: 100px;
   width: 100px;
   border-radius: 8px;
