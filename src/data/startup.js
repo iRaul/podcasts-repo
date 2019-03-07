@@ -71,6 +71,12 @@ const startup = [
     image: "https://gdurl.com/vBqv",
     url: "https://www.productpeople.tv/"
   },
+  {
+    title: "Y Combinator",
+    description: "A show about technology in business, research, and art.",
+    image: "https://gdurl.com/DqOk",
+    url: "https://blog.ycombinator.com/category/podcast/"
+  },
 ];
 
 export default startup;
