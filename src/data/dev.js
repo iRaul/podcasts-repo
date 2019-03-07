@@ -69,7 +69,7 @@ const dev = [
     title: "React Podcast",
     description: "Conversations about React with your favorite developers.",
     image: "https://gdurl.com/CEk7",
-    url: "https://spec.fm/podcasts/react-podcast"
+    url: "https://spec.fm/podcasts/reactpodcast"
   },
 ];
 
