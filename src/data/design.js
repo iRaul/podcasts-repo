@@ -77,6 +77,12 @@ const design = [
     image: "https://gdurl.com/b9ut",
     url: "https://www.designcuts.com/honest-designers"
   },
+  {
+    title: "Yo! Podcast",
+    description: "Interviews with designers, developers and makers.",
+    image: "https://gdurl.com/7sT8",
+    url: "https://yo.simplecast.com/"
+  },
 
 ];
 
