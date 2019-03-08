@@ -4,5 +4,6 @@
 - New categories, or improvements to the existing code or categorization are welcome.
 - Check your spelling and grammar.
 - To add a podcast look into `data` folder.
+- Keep the podcast description short (max. three rows).
 
 Thank you for contributing 😃
