@@ -77,6 +77,12 @@ const dev = [
     image: "https://gdurl.com/x8fl",
     url: "https://devmode.fm"
   },
+  {
+    title: "The Drunken UX Podcast",
+    description: "Discussions and interviews reviewing tools and techniques for building usable websites.",
+    image: "https://gdurl.com/9HBF",
+    url: "https://drunkenux.com"
+  },
 ];
 
 export default dev;
