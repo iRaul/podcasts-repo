@@ -78,10 +78,22 @@ const dev = [
     url: "https://devmode.fm"
   },
   {
-    title: "The Drunken UX Podcast",
-    description: "Discussions and interviews reviewing tools and techniques for building usable websites.",
+    title: "The Drunken UX",
+    description: "Discussions reviewing tools and techniques for building usable websites.",
     image: "https://gdurl.com/9HBF",
     url: "https://drunkenux.com"
+  },
+  {
+    title: "Undefined",
+    description: "The only engineering podcast with a 2 drink minimum!",
+    image: "https://gdurl.com/GjXA",
+    url: "https://undefined.fm/"
+  },
+  {
+    title: "Thunder Nerds",
+    description: "Conversation with the people behind the technology, that love what they do.",
+    image: "https://gdurl.com/A2Wy",
+    url: "https://www.thundernerds.io/"
   },
 ];
 
