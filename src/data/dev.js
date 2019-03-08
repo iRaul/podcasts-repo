@@ -71,6 +71,12 @@ const dev = [
     image: "https://gdurl.com/CEk7",
     url: "https://spec.fm/podcasts/reactpodcast"
   },
+    {
+    title: "devMode.fm",
+    description: "A bi-weekly podcast dedicated to the tools, techniques, and technologies used in modern web development.",
+    image: "http://devmode.fm/assets/site/devmode_light-itunes.jpg",
+    url: "https://devmode.fm"
+  },
 ];
 
 export default dev;
