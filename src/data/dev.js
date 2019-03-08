@@ -71,10 +71,10 @@ const dev = [
     image: "https://gdurl.com/CEk7",
     url: "https://spec.fm/podcasts/reactpodcast"
   },
-    {
+  {
     title: "devMode.fm",
-    description: "A bi-weekly podcast dedicated to the tools, techniques, and technologies used in modern web development.",
-    image: "http://devmode.fm/assets/site/devmode_light-itunes.jpg",
+    description: "Dedicated to the tools, techniques, and technologies used in modern web dev.",
+    image: "https://gdurl.com/x8fl",
     url: "https://devmode.fm"
   },
 ];

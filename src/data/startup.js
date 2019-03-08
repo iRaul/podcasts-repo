@@ -80,7 +80,7 @@ const startup = [
   {
     title: "Build Your SaaS",
     description: "Follow Jon and Justin as they build & launch their new product: Transistor.fm",
-    image: "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/27/fa/16/27fa1673-d300-2ec9-3a1f-8f75df494c8d/source/600x600bb.jpg",
+    image: "https://gdurl.com/j_9P",
     url: "https://saas.transistor.fm/"
   },
 ];

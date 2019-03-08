@@ -71,10 +71,10 @@ const design = [
     image: "https://gdurl.com/Idoc",
     url: "https://www.designmattersmedia.com/designmatters"
   },
-    {
+  {
     title: "The Honest Designers Show",
-    description: "Are you a designer struggling to find your way in the modern world? Learn how to make a dent in the creative universe.",
-    image: "http://static.libsyn.com/p/assets/1/7/d/1/17d12e737af3364a/HD_Cover.png",
+    description: "Learn how to make a dent in the creative universe.",
+    image: "https://gdurl.com/b9ut",
     url: "https://www.designcuts.com/honest-designers"
   },
 
