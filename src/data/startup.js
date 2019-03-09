@@ -83,6 +83,12 @@ const startup = [
     image: "https://gdurl.com/j_9P",
     url: "https://saas.transistor.fm/"
   },
+  {
+    title: "The Art of the Fail",
+    description: "Conversations with startups and entrepreneurs about their hardships and failures.",
+    image: "https://gdurl.com/H5tb",
+    url: "https://theaotf.com/"
+  },
 ];
 
 export default startup;
