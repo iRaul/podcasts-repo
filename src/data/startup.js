@@ -89,6 +89,12 @@ const startup = [
     image: "https://gdurl.com/H5tb",
     url: "https://theaotf.com/"
   },
+  {
+    title: "Rad Dad",
+    description: "Stories from business leaders and intelligent parents from tech and beyond.",
+    image: "https://gdurl.com/nIG9",
+    url: "https://www.raddadshow.com/"
+  },
 ];
 
 export default startup;
