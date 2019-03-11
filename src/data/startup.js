@@ -95,6 +95,12 @@ const startup = [
     image: "https://gdurl.com/nIG9",
     url: "https://www.raddadshow.com/"
   },
+  {
+    title: "Function",
+    description: "A podcast about how technology is shaping culture and communications.",
+    image: "https://gdurl.com/bzJm",
+    url: "https://glitch.com/culture/function/"
+  },
 ];
 
 export default startup;
