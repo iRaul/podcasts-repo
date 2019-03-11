@@ -50,6 +50,7 @@ const Info = styled.div`
     font-size: 14px;
     margin: 0;
     color: rgba(0, 0, 0, 0.8);
+    hyphens: auto;
   }
 `;
 
