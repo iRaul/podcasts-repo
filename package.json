@@ -31,7 +31,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "surge --project ./build --domain https://podcasts-repo.surge.sh/"
+      "pre-push": "surge --project /build --domain https://podcasts-repo.surge.sh/"
     }
   }
 }
