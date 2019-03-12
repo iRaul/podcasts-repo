@@ -95,6 +95,12 @@ const dev = [
     image: "https://gdurl.com/A2Wy",
     url: "https://www.thundernerds.io/"
   },
+  {
+    title: "Front End Happy Hour",
+    description: "A podcast featuring engineers from Netflix, Evernote, Atlassian & LinkedIn talking over drinks.",
+    image: "https://i1.sndcdn.com/avatars-000287353351-tdlqh4-t500x500.jpg",
+    url: "https://frontendhappyhour.com/"
+  },
 ];
 
 export default dev;
