@@ -96,9 +96,9 @@ const dev = [
     url: "https://www.thundernerds.io/"
   },
   {
-    title: "Front End Happy Hour",
-    description: "A podcast featuring engineers from Netflix, Evernote, Atlassian & LinkedIn talking over drinks.",
-    image: "https://i1.sndcdn.com/avatars-000287353351-tdlqh4-t500x500.jpg",
+    title: "FE Happy Hour",
+    description: "A podcast featuring engineers from Netflix, Evernote, Atlassian & LinkedIn.",
+    image: "https://gdurl.com/bUJe",
     url: "https://frontendhappyhour.com/"
   },
 ];
