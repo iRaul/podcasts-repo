@@ -102,6 +102,12 @@ const dev = [
     image: 'https://gdurl.com/bUJe',
     url: 'https://frontendhappyhour.com/',
   },
+  {
+    title: "The Console Log",
+    description: "A weekly news podcast about JavaScript and the web",
+    image: "https://theconsolelog.com/static/logo-6edb3d9a3c1a9f78ac7e25abbfde98ca.png",
+    url: "https://theconsolelog.com/"
+  },
 ];
 
 export default dev;
