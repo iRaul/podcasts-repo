@@ -25,89 +25,80 @@ class App extends Component {
   render() {
     return (
       <>
-      <Nav />
+        <Nav />
 
-      <Container>
+        <Container>
+          <Headline />
 
-        <Headline />
+          <Tabs>
+            <TabList>
+              <Tab>All ({all.length})</Tab>
+              <Tab>Design</Tab>
+              <Tab>Web Dev</Tab>
+              <Tab>Startup</Tab>
+            </TabList>
 
-        <Tabs>
-          <TabList>
-            <Tab>All ({ all.length })</Tab>
-            <Tab>Design</Tab>
-            <Tab>Web Dev</Tab>
-            <Tab>Startup</Tab>
-          </TabList>
-
-          <TabPanel>
-            <List>
-              {
-                all.map((item, index) => (
+            <TabPanel>
+              <List>
+                {all.map((item, index) => (
                   <Podcast
-                    key={ index }
-                    image={ item.image }
-                    title={ item.title }
-                    description={ item.description }
-                    url={ item.url }
+                    key={index}
+                    image={item.image}
+                    title={item.title}
+                    description={item.description}
+                    url={item.url}
                   />
-                ))
-              }
-            </List>
-          </TabPanel>
+                ))}
+              </List>
+            </TabPanel>
 
-          <TabPanel>
-            <List>
-              {
-                design.map((item, index) => (
+            <TabPanel>
+              <List>
+                {design.map((item, index) => (
                   <Podcast
-                    key={ index }
-                    image={ item.image }
-                    title={ item.title }
-                    description={ item.description }
-                    url={ item.url }
+                    key={index}
+                    image={item.image}
+                    title={item.title}
+                    description={item.description}
+                    url={item.url}
                   />
-                ))
-              }
-            </List>
-          </TabPanel>
+                ))}
+              </List>
+            </TabPanel>
 
-          <TabPanel>
-            <List>
-              {
-                dev.map((item, index) => (
+            <TabPanel>
+              <List>
+                {dev.map((item, index) => (
                   <Podcast
-                    key={ index }
-                    image={ item.image }
-                    title={ item.title }
-                    description={ item.description }
-                    url={ item.url }
+                    key={index}
+                    image={item.image}
+                    title={item.title}
+                    description={item.description}
+                    url={item.url}
                   />
-                ))
-              }
-            </List>
-          </TabPanel>
+                ))}
+              </List>
+            </TabPanel>
 
-          <TabPanel>
-            <List>
-              {
-                startup.map((item, index) => (
+            <TabPanel>
+              <List>
+                {startup.map((item, index) => (
                   <Podcast
-                    key={ index }
-                    image={ item.image }
-                    title={ item.title }
-                    description={ item.description }
-                    url={ item.url }
+                    key={index}
+                    image={item.image}
+                    title={item.title}
+                    description={item.description}
+                    url={item.url}
                   />
-                ))
-              }
-            </List>
-          </TabPanel>
-        </Tabs>
+                ))}
+              </List>
+            </TabPanel>
+          </Tabs>
 
-        <Footer />
-      </Container>
-    </>
-    )
+          <Footer />
+        </Container>
+      </>
+    );
   }
 }
 

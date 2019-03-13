@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Card = styled.a`
-  background: #FFF;
+  background: #fff;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 8px;
   border-radius: 8px;
   padding: 8px;
@@ -18,14 +18,14 @@ const Card = styled.a`
   }
 
   &:after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
   }
 `;
 
 const Image = styled.div`
-  background-image: url(${ props => props.image });
+  background-image: url(${props => props.image});
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -55,16 +55,12 @@ const Info = styled.div`
 `;
 
 const Podcast = props => (
-  <Card
-    href={ props.url }
-    target='_blank'
-    rel='noopener noreferrer'>
-
-    <Image image={ props.image } />
+  <Card href={props.url} target="_blank" rel="noopener noreferrer">
+    <Image image={props.image} />
 
     <Info>
-      <h3>{ props.title }</h3>
-      <p>{ props.description }</p>
+      <h3>{props.title}</h3>
+      <p>{props.description}</p>
     </Info>
   </Card>
 );

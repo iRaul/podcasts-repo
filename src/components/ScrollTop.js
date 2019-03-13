@@ -34,20 +34,18 @@ const Button = styled.button`
     transition: all 0.2s ease-in-out 0s;
   }
 
-  &:active, &:focus {
-    box-shadow: #FFF 0px 0px 0px 1px,
-                #4facfe 0px 0px 0px 3px;
+  &:active,
+  &:focus {
+    box-shadow: #fff 0px 0px 0px 1px, #4facfe 0px 0px 0px 3px;
     transform: translateY(-2px);
     outline: none;
     transition: all 0.2s ease-in-out 0s;
   }
 `;
 
-const ScrollTop = (props) => (
-  <Button
-    onClick={ props.scrollToTop }
-    type='button'>
-    <img src={ up } alt='Icon' />
+const ScrollTop = props => (
+  <Button onClick={props.scrollToTop} type="button">
+    <img src={up} alt="Icon" />
   </Button>
 );
 

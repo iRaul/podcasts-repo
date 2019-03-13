@@ -20,7 +20,9 @@ const Wrapper = styled.footer`
 const Footer = () => (
   <Wrapper>
     <p>All thumbnails © of their respective owners.</p>
-    <p>Built by <a href='https://twitter.com/raul_dronca'>Raul Dronca</a>.</p>
+    <p>
+      Built by <a href="https://twitter.com/raul_dronca">Raul Dronca</a>.
+    </p>
   </Wrapper>
 );
 

@@ -5,7 +5,7 @@ import logo from '../static/logo-3.svg';
 
 const Navbar = styled.nav`
   box-shadow: rgba(0, 0, 0, 0.04) 0px 4px 8px;
-  background: #FFF;
+  background: #fff;
   padding: 15px 0;
   width: 100%;
   margin: 0 auto 30px;
@@ -28,10 +28,10 @@ const Navbar = styled.nav`
   a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.8);
-    transition: color .3s ease;
+    transition: color 0.3s ease;
 
     &:hover {
-      color: #4FACFE;
+      color: #4facfe;
     }
   }
 
@@ -46,19 +46,13 @@ const Navbar = styled.nav`
 const Nav = () => (
   <Navbar>
     <div>
-      <img
-        src={ logo }
-        alt='Logo' />
+      <img src={logo} alt="Logo" />
 
-      <a
-        href='https://github.com/iRaul/podcasts-repo'
-        target='_blank'
-        rel='noopener noreferrer'>
+      <a href="https://github.com/iRaul/podcasts-repo" target="_blank" rel="noopener noreferrer">
         Contribute
       </a>
     </div>
   </Navbar>
-
 );
 
 export default Nav;
