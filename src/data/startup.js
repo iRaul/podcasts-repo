@@ -3,25 +3,25 @@ const startup = [
     title: 'Indie Hackers',
     description: 'Raw conversations with the founders behind profitable online businesses.',
     image: 'https://gdurl.com/deJh',
-    url: 'https://www.indiehackers.com/podcast'
+    url: 'https://www.indiehackers.com/podcast',
   },
   {
     title: 'Product Hunt Radio',
     description: 'A weekly podcast with the people creating and exploring the future.',
     image: 'https://gdurl.com/IO2P',
-    url: 'https://www.producthunt.com/radio'
+    url: 'https://www.producthunt.com/radio',
   },
   {
     title: 'StartUp Podcast',
     description: "A series about what it's really like to start a business.",
     image: 'https://gdurl.com/zr7M',
-    url: 'https://www.gimletmedia.com/startup/'
+    url: 'https://www.gimletmedia.com/startup/',
   },
   {
     title: 'Rework',
     description: 'A podcast by Basecamp about the better way to work and run your business.',
     image: 'https://gdurl.com/Xtgb',
-    url: 'https://rework.fm/'
+    url: 'https://rework.fm/',
   },
   {
     title: 'How I Built This',
@@ -38,14 +38,14 @@ const startup = [
   {
     title: '20 Minute VC',
     description: 'Venture Capital, Startup Funding and The Pitch.',
-    image: 'https://gdurl.com/xrlYH',
+    image: 'https://gdurl.com/xYw8',
     url: 'http://www.thetwentyminutevc.com/',
   },
   {
     title: 'Masters of Scale',
     description: 'Legendary entrepreneur Reid Hoffman tests his theories with famous founders',
     image: 'https://gdurl.com/DmTU',
-    url: 'https://mastersofscale.com/'
+    url: 'https://mastersofscale.com/',
   },
   {
     title: 'Rocketship.fm',
@@ -57,7 +57,7 @@ const startup = [
     title: 'The Growth Show',
     description: 'Each episode explores the inspiring stories behind how people grow a business.',
     image: 'https://gdurl.com/4VmF',
-    url: 'https://www.hubspot.com/podcasts/the-growth-show'
+    url: 'https://www.hubspot.com/podcasts/the-growth-show',
   },
   {
     title: 'The Pitch',
@@ -88,19 +88,19 @@ const startup = [
     description:
       'Conversations with startups and entrepreneurs about their hardships and failures.',
     image: 'https://gdurl.com/H5tb',
-    url: 'https://theaotf.com/'
+    url: 'https://theaotf.com/',
   },
   {
     title: 'Rad Dad',
     description: 'Stories from business leaders and intelligent parents from tech and beyond.',
     image: 'https://gdurl.com/nIG9',
-    url: 'https://www.raddadshow.com/'
+    url: 'https://www.raddadshow.com/',
   },
   {
     title: 'Function',
     description: 'A podcast about how technology is shaping culture and communications.',
     image: 'https://gdurl.com/bzJm',
-    url: 'https://glitch.com/culture/function/'
+    url: 'https://glitch.com/culture/function/',
   },
 ];
 
