@@ -102,6 +102,12 @@ const startup = [
     image: 'https://gdurl.com/bzJm',
     url: 'https://glitch.com/culture/function/',
   },
+  {
+    title: 'Schmidt List',
+    description: 'Interviews with people who manage, build, and lead product design teams.',
+    image: 'https://gdurl.com//fuKs',
+    url: 'https://www.schmidt-list.com/',
+  },
 ];
 
 export default startup;
