@@ -2,7 +2,7 @@ const design = [
   {
     title: 'Design Details',
     description: 'A weekly conversation about design process and culture.',
-    image: 'https://gdurl.com/Jvkq',
+    image: 'https://gdurl.com/D0Oj',
     url: 'https://spec.fm/podcasts/design-details',
   },
   {
@@ -20,7 +20,7 @@ const design = [
   {
     title: 'Overtime',
     description: 'Dribbble’s official podcast goes behind the shots of your favorite designers.',
-    image: 'https://gdurl.com/l61N',
+    image: 'https://gdurl.com/Xpp5',
     url: 'https://dribbble.com/overtime',
   },
   {

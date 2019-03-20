@@ -68,7 +68,7 @@ const startup = [
   {
     title: 'Product People',
     description: 'A podcast focused on great products and the people who make them.',
-    image: 'https://gdurl.com/vBqv',
+    image: 'https://gdurl.com/KV_Y',
     url: 'https://www.productpeople.tv/',
   },
   {
