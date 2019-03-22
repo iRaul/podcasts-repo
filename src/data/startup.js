@@ -102,6 +102,12 @@ const startup = [
     image: 'https://gdurl.com/bzJm',
     url: 'https://glitch.com/culture/function/',
   },
+  {
+    title: 'ETL: Entrepreneurial Thought Leaders',
+    description: 'Entrepreneurial stories of the secrets and setbacks behind success.',
+    image: 'https://stvp-static-prod.s3.amazonaws.com/uploads/sites/2/2019/03/63129_1551886269.jpg',
+    url: 'https://itunes.apple.com/us/podcast/entrepreneurial-thought-leaders/id80867514?mt=2',
+  },
 ];
 
 export default startup;
