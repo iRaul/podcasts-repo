@@ -105,13 +105,13 @@ const startup = [
   {
     title: 'ETL: Entrepreneurial Thought Leaders',
     description: 'Entrepreneurial stories of the secrets and setbacks behind success.',
-    image: 'https://stvp-static-prod.s3.amazonaws.com/uploads/sites/2/2019/03/63129_1551886269.jpg',
-    url: 'https://itunes.apple.com/us/podcast/entrepreneurial-thought-leaders/id80867514?mt=2'
+    image: 'https://gdurl.com/BUsW',
+    url: 'https://art19.com/shows/entrepreneurial-thought-leaders',
   },
   {
-    title: 'Building an Indie Business',
+    title: 'Indie Business',
     description: 'A podcast about the process of building a podcast directory.',
-    image: 'https://overcast.fm/art?s=752e2698563199e5e1cc1a267043b45f35e2f1a4060346a63265900d2f96b39f&w=840&u=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fanchor-generated-image-bank%2Fproduction%2Fpodcast_uploaded_nologo%2F1525406%2F1525406-1552019326780-4549149ee4751.jpg',
+    image: 'https://gdurl.com/y66M',
     url: 'https://overcast.fm/itunes1455703355/building-an-indie-business',
   },
 ];
