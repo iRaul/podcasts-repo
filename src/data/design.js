@@ -6,6 +6,12 @@ const design = [
     url: 'https://spec.fm/podcasts/design-details',
   },
   {
+    title: 'Product Breakfast Club',
+    description: 'A behind-the-scenes look at how products are designed.',
+    image: 'https://gdurl.com/6UFI',
+    url: 'https://www.productbreakfastclub.com/',
+  },
+  {
     title: 'User Defenders',
     description: 'Inspiring Interviews with UX Superheros.',
     image: 'https://gdurl.com/NsJ2',
