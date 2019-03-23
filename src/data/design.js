@@ -83,6 +83,12 @@ const design = [
     image: 'https://gdurl.com/7sT8',
     url: 'https://yo.simplecast.com/',
   },
+  {
+    title: 'Roots',
+    description: 'A podcast about the stories of Filipino designers.',
+    image: 'http://static1.squarespace.com/static/599e9edd6f4ca3898d8cdadc/t/59ac2fe0e45a7c3665ce523a/1504456702911/roots7.png?format=1500w',
+    url: 'https://rootspodcast.design/',
+  },
 ];
 
 export default design;
