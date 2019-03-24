@@ -103,7 +103,7 @@ const startup = [
     url: 'https://glitch.com/culture/function/',
   },
   {
-    title: 'ETL: Entrepreneurial Thought Leaders',
+    title: 'ETL',
     description: 'Entrepreneurial stories of the secrets and setbacks behind success.',
     image: 'https://gdurl.com/BUsW',
     url: 'https://art19.com/shows/entrepreneurial-thought-leaders',
