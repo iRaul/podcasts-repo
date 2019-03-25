@@ -114,6 +114,12 @@ const startup = [
     image: 'https://gdurl.com/y66M',
     url: 'https://overcast.fm/itunes1455703355/building-an-indie-business',
   },
+  {
+    title: 'The Podcast',
+    description: 'Stories from managing a bootstrapped, remote-only company (and more).',
+    image: 'https://gdurl.com/RULa',
+    url: 'https://thepodcast.fm',
+  },
 ];
 
 export default startup;
