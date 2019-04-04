@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
-import randomPodcast from './Utilities';
+import { randomPodcast } from './Utilities';
 
 import Container from './Container';
 import Headline from './Headline';
