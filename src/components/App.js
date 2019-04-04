@@ -6,9 +6,8 @@ import randomPodcast from './Utilities';
 
 import Container from './Container';
 import Headline from './Headline';
-import Podcast from './Podcast';
+import PodcastList from './PodcastList';
 import Footer from './Footer';
-import List from './List';
 import Nav from './Nav';
 
 import startup from '../data/startup';
@@ -39,59 +38,19 @@ class App extends Component {
             </TabList>
 
             <TabPanel>
-              <List>
-                {all.map((item, index) => (
-                  <Podcast
-                    key={index}
-                    image={item.image}
-                    title={item.title}
-                    description={item.description}
-                    url={item.url}
-                  />
-                ))}
-              </List>
+              <PodcastList items={all} />
             </TabPanel>
 
             <TabPanel>
-              <List>
-                {design.map((item, index) => (
-                  <Podcast
-                    key={index}
-                    image={item.image}
-                    title={item.title}
-                    description={item.description}
-                    url={item.url}
-                  />
-                ))}
-              </List>
+              <PodcastList items={design} />
             </TabPanel>
 
             <TabPanel>
-              <List>
-                {dev.map((item, index) => (
-                  <Podcast
-                    key={index}
-                    image={item.image}
-                    title={item.title}
-                    description={item.description}
-                    url={item.url}
-                  />
-                ))}
-              </List>
+              <PodcastList items={dev} />
             </TabPanel>
 
             <TabPanel>
-              <List>
-                {startup.map((item, index) => (
-                  <Podcast
-                    key={index}
-                    image={item.image}
-                    title={item.title}
-                    description={item.description}
-                    url={item.url}
-                  />
-                ))}
-              </List>
+              <PodcastList items={startup} />
             </TabPanel>
           </Tabs>
 
