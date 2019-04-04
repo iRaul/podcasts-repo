@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+import Input from './Input';
 import List from './List';
 import Podcast from './Podcast';
 
@@ -16,7 +17,8 @@ const PodcastList = ({ items }) => {
 
   return (
     <>
-      <input value={filter} onChange={handleFilter} />
+      <Input value={filter} onChange={handleFilter} placeholder="Filter" />
+
       <List>
         {filteredItems.map((item, index) => (
           <Podcast key={index} {...item} />
