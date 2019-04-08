@@ -108,6 +108,12 @@ const dev = [
     image: 'https://gdurl.com/Jscl',
     url: 'https://theconsolelog.com/',
   },
+  {
+    title: 'Software Engineering Daily',
+    description: 'The World Through the Lens Of Software',
+    image: 'https://i0.wp.com/softwareengineeringdaily.com/wp-content/uploads/2018/05/logo.png',
+    url: 'https://softwareengineeringdaily.com/',
+  },
 ];
 
 export default dev;
