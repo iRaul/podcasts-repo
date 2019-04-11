@@ -109,10 +109,11 @@ const dev = [
     url: 'https://theconsolelog.com/',
   },
   {
-    title: 'Software Engineering Daily',
-    description: 'The World Through the Lens Of Software',
-    image: 'https://i0.wp.com/softwareengineeringdaily.com/wp-content/uploads/2018/05/logo.png',
-    url: 'https://softwareengineeringdaily.com/',
+    title: 'Software Engineering',
+    description:
+      'The World Through the Lens Of Software. Technical interviews about software topics.',
+    image: 'https://gdurl.com/C0Dy',
+    url: 'https://softwareengineeringdaily.com/category/all-episodes/exclusive-content/Podcast/',
   },
 ];
 
