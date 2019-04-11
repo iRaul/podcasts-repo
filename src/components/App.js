@@ -33,7 +33,7 @@ class App extends Component {
             <TabList>
               <Tab>All ({all.length})</Tab>
               <Tab>Design</Tab>
-              <Tab>Web Dev</Tab>
+              <Tab>Dev</Tab>
               <Tab>Startup</Tab>
             </TabList>
 
