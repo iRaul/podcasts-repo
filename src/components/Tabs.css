@@ -4,7 +4,11 @@
 
 .react-tabs__tab-list {
   margin: 0 0 10px;
+  max-width: 440px;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
 }
 
 .react-tabs__tab {
@@ -17,7 +21,6 @@
   cursor: pointer;
   background: #FFF;
   border-radius: 4px;
-  margin-right: 10px;
   color: rgba(0, 0, 0, 1);
   box-shadow: 0 4px 6px rgba(50, 50, 93, .11),
               0 1px 3px rgba(0, 0, 0, .08);
@@ -27,8 +30,9 @@
 }
 
 @media (max-width: 576px) {
-  .react-tabs__tab:first-child {
-    margin-bottom: 10px;
+  .react-tabs__tab-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 }
 
