@@ -126,7 +126,7 @@ const dev = [
     description: 'A podcast series that focuses on discussing computer science topics as humanly as possible.',
     image: 'https://gdurl.com/sagW',
     url: 'https://www.codenewbie.org/basecs',
-  }
+  },
 ];
 
 export default dev;
