@@ -115,6 +115,18 @@ const dev = [
     image: 'https://gdurl.com/C0Dy',
     url: 'https://softwareengineeringdaily.com/category/all-episodes/exclusive-content/Podcast/',
   },
+  {
+    title: 'Programming Throwdown',
+    description: 'Dedicated on detailed breakdown on various programming and technology topics.',
+    image: 'https://gdurl.com/NoBf',
+    url: 'https://www.programmingthrowdown.com/',
+  },
+  {
+    title: 'BaseCS',
+    description: 'A podcast series that focuses on discussing computer science topics as humanly as possible.',
+    image: 'https://gdurl.com/sagW',
+    url: 'https://www.codenewbie.org/basecs',
+  }
 ];
 
 export default dev;
