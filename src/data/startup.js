@@ -126,6 +126,12 @@ const startup = [
     image: 'https://gdurl.com/fuKs',
     url: 'https://www.schmidt-list.com/',
   },
+    {
+    title: 'A-Players',
+    description: 'Learn why getting the hiring strategy right is key to the successful growth of your company.',
+    image: 'https://gdurl.com/O1nU',
+    url: 'https://anchor.fm/acelr8',
+  },
 ];
 
 export default startup;
