@@ -24,6 +24,12 @@ const design = [
     url: 'https://uibreakfast.com/category/podcast/',
   },
   {
+    title: 'Adventures in Design',
+    description: 'A daily talk show for creatives, exploring how others design happiness into their professional lives.',
+    image: 'https://gdurl.com/acAiq',
+    url: 'https://aid.network',
+  },
+  {
     title: 'Overtime',
     description: 'Dribbble’s official podcast goes behind the shots of your favorite designers.',
     image: 'https://gdurl.com/Xpp5',
