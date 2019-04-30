@@ -25,7 +25,8 @@ const design = [
   },
   {
     title: 'Adventures in Design',
-    description: 'A daily talk show for creatives, exploring how others design happiness into their professional lives.',
+    description:
+      'About creatives, exploring how others design happiness into their professional lives.',
     image: 'https://gdurl.com/acAiq',
     url: 'https://aid.network',
   },
