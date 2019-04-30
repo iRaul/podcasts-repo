@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
 const Input = styled.input`
-  display: inline-block;
+  display: block;
   height: 40px;
   width: 100%;
-  max-width: 440px;
+  max-width: 250px;
   line-height: 40px;
+  margin: 40px auto 0;
   padding: 0 14px;
   background: #fff;
   border-radius: 4px;

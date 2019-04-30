@@ -95,6 +95,18 @@ const design = [
     image: 'https://gdurl.com/paOO',
     url: 'https://rootspodcast.design/',
   },
+  {
+    title: 'Opacity',
+    description: 'A podcast about working in design.',
+    image: 'https://gdurl.com/6Lgc',
+    url: 'https://anchor.fm/opacity',
+  },
+  {
+    title: 'This Design Life',
+    description: 'The podcast for designers that want to excell.',
+    image: 'https://gdurl.com/ZhJV',
+    url: 'https://www.thisdesignlife.net/design-podcast/',
+  },
 ];
 
 export default design;
