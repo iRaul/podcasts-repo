@@ -126,6 +126,12 @@ const startup = [
     image: 'https://gdurl.com/fuKs',
     url: 'https://www.schmidt-list.com/',
   },
+  {
+    title: 'Startups for the Rest of Us',
+    description: 'The MicroConf founders share their tumultuous life of two entrepreneurs.',
+    image: 'https://gdurl.com/5Qg9',
+    url: 'https://www.startupsfortherestofus.com/',
+  },
 ];
 
 export default startup;
