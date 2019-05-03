@@ -115,6 +115,42 @@ const dev = [
     image: 'https://gdurl.com/C0Dy',
     url: 'https://softwareengineeringdaily.com/category/all-episodes/exclusive-content/Podcast/',
   },
+  {
+    title: 'LINUX Unplugged',
+    description: 'Weekly Linux talk show with no script, no limits, surprise guests and tons of opinion.',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/f/f31a453c-fa15-491f-8618-3f71f1d565e5/cover_small.jpg',
+    url: 'https://linuxunplugged.com/'
+  },
+  {
+    title: 'Coder Radio',
+    description: 'A weekly talk show taking a pragmatic look at the art and business of Software Development and related technologies.',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/b/b44de5fa-47c1-4e94-bf9e-c72f8d1c8f5d/cover_small.jpg',
+    url: 'https://coder.show/'
+  },
+  {
+    title: 'TechSNAP',
+    description: 'Weekly Systems, Network, and Administration Podcast.',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/9/95197d05-40d6-4e68-8e0b-2f586ce8dc55/cover_small.jpg',
+    url: 'https://techsnap.systems/'
+  },
+  {
+    title: 'Choose Linux',
+    description: 'The show that captures the excitement of discovering Linux.',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/b/bcfa14da-33ad-4749-b1a9-4b668e7aa8c7/cover_small.jpg',
+    url: 'https://chooselinux.show/'
+  },
+  {
+    title: 'Linux Action News',
+    description: 'A weekly take on the free and open source world. ',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/d/dec90738-e640-45e5-b375-4573052f4bf4/cover_small.jpg',
+    url: 'https://linuxactionnews.com/'
+  },
+  {
+    title: 'User Error',
+    description: 'Life is a series of mistakes, but that\'s what makes it interesting.',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/8/85b580b3-f70b-4bdb-972e-6bc86843b731/cover_small.jpg',
+    url: 'https://error.show/'
+  },
 ];
 
 export default dev;
