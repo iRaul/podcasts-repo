@@ -1,4 +1,6 @@
 import Parser from 'rss-parser';
+import has from 'lodash.has';
+import get from 'lodash.get';
 
 const parser = new Parser();
 
@@ -14,4 +16,10 @@ export const randomPodcast = a => {
 export const lowerCase = str => str.toLowerCase();
 
 const CORS_PROXY = 'https://cors-anywhere.herokuapp.com/';
-export const fetchDataFromRSSFeed = async rssUrl => parser.parseURL(CORS_PROXY + rssUrl);
+export const fetchDataFromRssFeed = async rssUrl => parser.parseURL(CORS_PROXY + rssUrl);
+
+export const validateRssData = (rssData, rssOverride, property) => {
+  if (has(rssData, property.rssKey) && !rssOverride.includes(property.dataKey)) {
+    return { [property.dataKey]: get(rssData, property.rssKey) };
+  }
+};

@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import propTypes from 'prop-types';
-import { fetchDataFromRSSFeed } from './Utilities';
+
+import { fetchDataFromRssFeed, validateRssData } from './Utilities';
 
 const Card = styled.a`
   background: #fff;
@@ -64,36 +65,32 @@ class Podcast extends React.Component {
     this.state = { title, image, description, url };
   }
 
-  async componentDidMount() {
+  componentDidMount = async () => {
     const { rss = '' } = this.props;
     if (rss) {
       await this.getRssData(rss);
     }
-  }
+  };
 
-  async getRssData(rssUrl) {
-    const rssData = await fetchDataFromRSSFeed(rssUrl);
-    if (!rssData) {
-      return;
+  getRssData = async rssUrl => {
+    const rssData = await fetchDataFromRssFeed(rssUrl);
+    if (rssData) {
+      const { rssOverride = [] } = this.props;
+      [
+        { rssKey: 'title', dataKey: 'title' },
+        { rssKey: 'description', dataKey: 'description' },
+        { rssKey: 'link', dataKey: 'url' },
+        { rssKey: 'image.url', dataKey: 'image' },
+      ].forEach(property => {
+        const validatedRssData = validateRssData(rssData, rssOverride, property);
+        if (validatedRssData) {
+          this.setState(validatedRssData);
+        }
+      });
     }
+  };
 
-    const { rssOverride = [] } = this.props;
-
-    if (rssData.title && !rssOverride.includes('title')) {
-      this.setState({ title: rssData.title });
-    }
-    if (rssData.link && !rssOverride.includes('url')) {
-      this.setState({ url: rssData.link });
-    }
-    if (rssData.description && !rssOverride.includes('description')) {
-      this.setState({ description: rssData.description });
-    }
-    if (rssData.image && rssData.image.url && !rssOverride.includes('image')) {
-      this.setState({ image: rssData.image.url });
-    }
-  }
-
-  render() {
+  render = () => {
     const { title, url, image, description } = this.state;
     return (
       <Card href={url} target="_blank" rel="noopener noreferrer">
@@ -105,7 +102,7 @@ class Podcast extends React.Component {
         </Info>
       </Card>
     );
-  }
+  };
 }
 
 Podcast.propTypes = {
