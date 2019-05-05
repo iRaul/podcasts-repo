@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import propTypes from 'prop-types';
+import { fetchDataFromRSSFeed } from './Utilities';
 
 const Card = styled.a`
   background: #fff;
@@ -55,15 +57,64 @@ const Info = styled.div`
   }
 `;
 
-const Podcast = props => (
-  <Card href={props.url} target="_blank" rel="noopener noreferrer">
-    <Image image={props.image} />
+class Podcast extends React.Component {
+  constructor(props) {
+    super(props);
+    const { title = '', image = '', description = '', url = '' } = props;
+    this.state = { title, image, description, url };
+  }
 
-    <Info>
-      <h3>{props.title}</h3>
-      <p>{props.description}</p>
-    </Info>
-  </Card>
-);
+  async componentDidMount() {
+    const { rss = '' } = this.props;
+    if (rss) {
+      await this.getRssData(rss);
+    }
+  }
+
+  async getRssData(rssUrl) {
+    const rssData = await fetchDataFromRSSFeed(rssUrl);
+    if (!rssData) {
+      return;
+    }
+
+    const { rssOverride = [] } = this.props;
+
+    if (rssData.title && !rssOverride.includes('title')) {
+      this.setState({ title: rssData.title });
+    }
+    if (rssData.link && !rssOverride.includes('url')) {
+      this.setState({ url: rssData.link });
+    }
+    if (rssData.description && !rssOverride.includes('description')) {
+      this.setState({ description: rssData.description });
+    }
+    if (rssData.image && rssData.image.url && !rssOverride.includes('image')) {
+      this.setState({ image: rssData.image.url });
+    }
+  }
+
+  render() {
+    const { title, url, image, description } = this.state;
+    return (
+      <Card href={url} target="_blank" rel="noopener noreferrer">
+        <Image image={image} />
+
+        <Info>
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </Info>
+      </Card>
+    );
+  }
+}
+
+Podcast.propTypes = {
+  title: propTypes.string.isRequired,
+  image: propTypes.string,
+  url: propTypes.string,
+  description: propTypes.string,
+  rss: propTypes.string,
+  rssOverride: propTypes.array,
+};
 
 export default Podcast;

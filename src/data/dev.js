@@ -115,6 +115,12 @@ const dev = [
     image: 'https://gdurl.com/C0Dy',
     url: 'https://softwareengineeringdaily.com/category/all-episodes/exclusive-content/Podcast/',
   },
+  {
+    title: 'The Bike Shed',
+    rssOverride: ['description'],
+    description: 'Let\'s bikeshed: development experience, Ruby, Rails, JavaScript, ...',
+    rss: 'https://rss.simplecast.com/podcasts/282/rss',
+  },
 ];
 
 export default dev;
