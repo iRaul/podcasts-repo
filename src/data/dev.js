@@ -118,7 +118,7 @@ const dev = [
   {
     title: 'The Bike Shed',
     rssOverride: ['description'],
-    description: "Let's bikeshed: development experience, Ruby, Rails, JavaScript, ...",
+    description: "Let's bikeshed: dev experience, Ruby, Rails, JS and other shiny things.",
     rss: 'https://rss.simplecast.com/podcasts/282/rss',
   },
 ];
