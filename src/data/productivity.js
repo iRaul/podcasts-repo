@@ -36,6 +36,12 @@ const productivity = [
     image: 'https://gdurl.com/HhkNb',
     url: 'https://paulminors.com/podcast/',
   },
+  {
+    title: 'Works for Me',
+    description: 'MythBusters for productivity hacks.',
+    image: 'https://gdurl.com/Vcx6',
+    url: 'https://www.bloomberg.com/works-for-me',
+  },
 ];
 
 export default productivity;
