@@ -126,6 +126,12 @@ const startup = [
     image: 'https://gdurl.com/fuKs',
     url: 'https://www.schmidt-list.com/',
   },
+   {
+    title: 'A-Players',
+    description: 'Interviews with founders, venture builders, growth managers, ',
+    image: 'https://gdurl.com/O1nU',
+    url: 'https://anchor.fm/acelr8',
+  },
   {
     title: 'Startups Podcast',
     description: 'The MicroConf founders share their tumultuous life of two entrepreneurs.',
