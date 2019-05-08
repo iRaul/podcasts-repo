@@ -126,11 +126,17 @@ const startup = [
     image: 'https://gdurl.com/fuKs',
     url: 'https://www.schmidt-list.com/',
   },
-    {
+   {
     title: 'A-Players',
-    description: 'Learn why getting the hiring strategy right is key to the successful growth of your company.',
+    description: 'Interviews with founders, venture builders, growth managers, ',
     image: 'https://gdurl.com/O1nU',
     url: 'https://anchor.fm/acelr8',
+  },
+  {
+    title: 'Startups Podcast',
+    description: 'The MicroConf founders share their tumultuous life of two entrepreneurs.',
+    image: 'https://gdurl.com/5Qg9',
+    url: 'https://www.startupsfortherestofus.com/',
   },
 ];
 

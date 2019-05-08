@@ -44,6 +44,7 @@ const Info = styled.div`
     margin-top: 0;
     margin-bottom: 4px;
     color: rgba(0, 0, 0, 1);
+    font-size: 18px;
   }
 
   p {

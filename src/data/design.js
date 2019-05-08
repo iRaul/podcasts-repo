@@ -24,6 +24,13 @@ const design = [
     url: 'https://uibreakfast.com/category/podcast/',
   },
   {
+    title: 'Adventures in Design',
+    description:
+      'About creatives, exploring how others design happiness into their professional lives.',
+    image: 'https://gdurl.com/acAiq',
+    url: 'https://aid.network',
+  },
+  {
     title: 'Overtime',
     description: 'Dribbble’s official podcast goes behind the shots of your favorite designers.',
     image: 'https://gdurl.com/Xpp5',
@@ -94,6 +101,18 @@ const design = [
     description: 'A podcast about the stories of Filipino designers.',
     image: 'https://gdurl.com/paOO',
     url: 'https://rootspodcast.design/',
+  },
+  {
+    title: 'Opacity',
+    description: 'A podcast about working in design.',
+    image: 'https://gdurl.com/6Lgc',
+    url: 'https://anchor.fm/opacity',
+  },
+  {
+    title: 'This Design Life',
+    description: 'The podcast for designers that want to excell.',
+    image: 'https://gdurl.com/ZhJV',
+    url: 'https://www.thisdesignlife.net/design-podcast/',
   },
 ];
 
