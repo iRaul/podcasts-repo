@@ -115,6 +115,12 @@ const dev = [
     image: 'https://gdurl.com/C0Dy',
     url: 'https://softwareengineeringdaily.com/category/all-episodes/exclusive-content/Podcast/',
   },
+  {
+    title: 'Hope in Source',
+    description: 'A podcast about the parallels between faith and open source software',
+    image: 'https://gdurl.com/cbvk',
+    url: 'https://hopeinsource.com/',
+  },
 ];
 
 export default dev;
