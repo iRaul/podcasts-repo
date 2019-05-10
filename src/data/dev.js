@@ -116,6 +116,12 @@ const dev = [
     url: 'https://softwareengineeringdaily.com/category/all-episodes/exclusive-content/Podcast/',
   },
   {
+    title: 'Hope in Source',
+    description: 'A podcast about the parallels between faith and open source software',
+    image: 'https://gdurl.com/cbvk',
+    url: 'https://hopeinsource.com/',
+  },
+  {
     title: 'The Bike Shed',
     rssOverride: ['description'],
     description: "Let's bikeshed: dev experience, Ruby, Rails, JS and other shiny things.",

@@ -19,7 +19,7 @@ import dev from '../data/dev';
 
 import './Tabs.css';
 
-const all = [...design, ...dev, ...startup];
+const all = [...design, ...dev, ...startup, ...productivity];
 
 randomPodcast(all);
 
