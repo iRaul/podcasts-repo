@@ -121,6 +121,13 @@ const dev = [
     image: 'https://gdurl.com/cbvk',
     url: 'https://hopeinsource.com/',
   },
+  {
+    title: 'BaseCS',
+    description:
+      'A podcast series that focuses on discussing computer science topics as humanly as possible.',
+    image: 'https://s3.amazonaws.com/codenewbie-assets/basecs+podcast+cover+7+small.png',
+    url: 'https://www.codenewbie.org/basecs',
+  },
 ];
 
 export default dev;
