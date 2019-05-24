@@ -121,6 +121,66 @@ const dev = [
     image: 'https://gdurl.com/cbvk',
     url: 'https://hopeinsource.com/',
   },
+  {
+    title: 'РадиоT',
+    description: 'Разговоры на темы хайтек, высоких компьютерных технологий, облаков, программирования.',
+    image: 'https://is1-ssl.mzstatic.com/image/thumb/Music/v4/73/2d/47/732d47af-f006-64f6-42bd-ff2183e37985/source/600x600bb.jpg',
+    url: 'https://radio-t.com/',
+  },
+  {
+    title: 'Podlodka Podcast',
+    description: 'Еженедельное аудио-шоу про IT и все, что с ним связано.',
+    image: 'https://i1.sndcdn.com/avatars-000331499231-lm24fw-t500x500.jpg',
+    url: 'https://soundcloud.com/podlodka',
+  },
+  {
+    title: 'No Name Podcast',
+    description: 'Кібер-шмібер. Український подкаст з інформаційної безпеки.',
+    image: 'https://pbcdn1.podbean.com/imglogo/image-logo/1475083/noname.png',
+    url: 'https://nonamepodcast.podbean.com/',
+  },
+  {
+    title: 'DevZen Podcast',
+    description: 'Подкаст о программировании, IT и смежных темах (16+)',
+    image: 'https://devzen.ru/files/devzen.jpg',
+    url: 'https://devzen.ru/',
+  },
+  {
+    title: 'Frontend Weekend',
+    description: 'Самые честные интервью с известными людьми из мира web-разработки.',
+    image: 'https://i1.sndcdn.com/avatars-000358703579-bnobxj-t500x500.jpg',
+    url: 'https://frontendweekend.ml',
+  },
+  {
+    title: 'Radio.js',
+    description: 'Подкаст о веб-разработке, javascript, фронтенде и client-side',
+    image: 'http://radiojs.ru/wp-content/uploads/2014/07/radiojs_itunes.png',
+    url: 'https://radiojs.ru/',
+  },
+  {
+    title: 'Фронтенд Юность',
+    description: 'Вся правда о фронтенд-разработке. Всё, о чём боятся говорить — вы услышите здесь!',
+    image: 'https://i1.sndcdn.com/avatars-000317750782-4p9exx-t500x500.jpg',
+    url: 'https://youknow.st/',
+  },
+  {
+    title: 'Веб-стандарты',
+    description: 'Новости фронтенда за неделю. Подкаст сообщества «Веб-стандарты».',
+    image: 'https://i1.sndcdn.com/avatars-000202051699-d6qlyg-t500x500.jpg',
+    url: 'https://soundcloud.com/web-standards',
+  },
+  {
+    title: 'SDcast',
+    description: 'Подкаст о разработке ПО и его окрестностях',
+    image: 'https://sdcast.ksdaemon.ru/wp-content/uploads/2014/06/sd-podcast-logo-1440scaled.png',
+    url: 'https://sdcast.ksdaemon.ru/',
+  },
+  {
+    title: 'Sebrant chatting',
+    description: 'Трёп Себранта. Про канал http://t.me/techsparks, всякие технологии, умные машины - но не только',
+    image: 'http://assets.libsyn.com/content/35728142?height=250&width=250',
+    url: 'https://asebrant.libsyn.com/',
+  },
 ];
 
 export default dev;
