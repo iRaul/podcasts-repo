@@ -121,6 +121,12 @@ const dev = [
     image: 'https://gdurl.com/cbvk',
     url: 'https://hopeinsource.com/',
   },
+  {
+    title: 'TechSNAP',
+    description: 'Weekly Systems, Network, and Administration Podcast.',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/9/95197d05-40d6-4e68-8e0b-2f586ce8dc55/cover_small.jpg',
+    url: 'https://techsnap.systems/'
+  },
 ];
 
 export default dev;
