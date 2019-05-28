@@ -121,6 +121,12 @@ const dev = [
     image: 'https://gdurl.com/cbvk',
     url: 'https://hopeinsource.com/',
   },
+  {
+    title: 'Choose Linux',
+    description: 'The show that captures the excitement of discovering Linux.',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/b/bcfa14da-33ad-4749-b1a9-4b668e7aa8c7/cover_small.jpg',
+    url: 'https://chooselinux.show/'
+  },
 ];
 
 export default dev;
