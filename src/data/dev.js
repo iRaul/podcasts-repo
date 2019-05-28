@@ -121,6 +121,12 @@ const dev = [
     image: 'https://gdurl.com/cbvk',
     url: 'https://hopeinsource.com/',
   },
+  {
+    title: 'Linux Action News',
+    description: 'A weekly take on the free and open source world. ',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/d/dec90738-e640-45e5-b375-4573052f4bf4/cover_small.jpg',
+    url: 'https://linuxactionnews.com/'
+  },
 ];
 
 export default dev;
