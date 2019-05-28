@@ -121,6 +121,12 @@ const dev = [
     image: 'https://gdurl.com/cbvk',
     url: 'https://hopeinsource.com/',
   },
+  {
+    title: 'User Error',
+    description: 'Life is a series of mistakes, but that\'s what makes it interesting.',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/8/85b580b3-f70b-4bdb-972e-6bc86843b731/cover_small.jpg',
+    url: 'https://error.show/'
+  },
 ];
 
 export default dev;
