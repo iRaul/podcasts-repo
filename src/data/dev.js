@@ -121,6 +121,12 @@ const dev = [
     image: 'https://gdurl.com/cbvk',
     url: 'https://hopeinsource.com/',
   },
+  {
+    title: 'Coder Radio',
+    description: 'A weekly talk show taking a pragmatic look at the art and business of Software Development and related technologies.',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/b/b44de5fa-47c1-4e94-bf9e-c72f8d1c8f5d/cover_small.jpg',
+    url: 'https://coder.show/'
+  },
 ];
 
 export default dev;
