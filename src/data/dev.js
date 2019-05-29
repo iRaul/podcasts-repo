@@ -121,6 +121,12 @@ const dev = [
     image: 'https://gdurl.com/cbvk',
     url: 'https://hopeinsource.com/',
   },
+  {
+    title: 'Semaphore Uncut',
+    description: 'Software industry pros discuss problems they’re currently solving with the products they're working on.',
+    image: 'https://gdurl.com/lRj3',
+    url: 'https://semaphoreci.com/podcast',
+  },
 ];
 
 export default dev;
