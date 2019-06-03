@@ -156,6 +156,12 @@ const startup = [
     url: "https://www.startupsfortherestofus.com/"
   },
   {
+    title: 'Startup For The Rest Of Us',
+    description: 'The MicroConf founders share their tumultuous life of two entrepreneurs.',
+    image: 'https://gdurl.com/5Qg9',
+    url: 'https://www.startupsfortherestofus.com/',
+  },
+  {
     title: "Elevatd Life",
     description:
       "Seasonal themed show helping to educate folks about tech, diversity, design and more!",
