@@ -127,6 +127,32 @@ const dev = [
     image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/b/b44de5fa-47c1-4e94-bf9e-c72f8d1c8f5d/cover_small.jpg',
     url: 'https://coder.show/'
   },
+  {
+    title: 'LINUX Unplugged',
+    description: 'Weekly Linux talk show with no script, no limits, surprise guests and tons of opinion.',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/f/f31a453c-fa15-491f-8618-3f71f1d565e5/cover_small.jpg',
+    url: 'https://linuxunplugged.com/'
+  },
+  {
+    title: 'Programming Throwdown',
+    description: 'Dedicated on detailed breakdown on various programming and technology topics.',
+    image:
+      'https://3.bp.blogspot.com/-rM9WWDxF9Oo/V2Aq6xitPNI/AAAAAAAAOgM/DJ32nsyJxrQqjFARXKs3LR0Q09hCCbiQACK4B/s758/PTLogoWithTitleAndBorder256.png',
+    url: 'https://www.programmingthrowdown.com/',
+  },
+  {
+    title: 'BaseCS',
+    description:
+      'A podcast series that focuses on discussing computer science topics as humanly as possible.',
+    image: 'https://s3.amazonaws.com/codenewbie-assets/basecs+podcast+cover+7+small.png',
+    url: 'https://www.codenewbie.org/basecs',
+  },
+  {
+    title: 'The Bike Shed',
+    rssOverride: ['description'],
+    description: "Let's bikeshed: dev experience, Ruby, Rails, JS and other shiny things.",
+    rss: 'https://rss.simplecast.com/podcasts/282/rss',
+  },
 ];
 
 export default dev;
