@@ -122,6 +122,12 @@ const dev = [
     url: 'https://hopeinsource.com/',
   },
   {
+    title: 'TechSNAP',
+    description: 'Weekly Systems, Network, and Administration Podcast.',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/9/95197d05-40d6-4e68-8e0b-2f586ce8dc55/cover_small.jpg',
+    url: 'https://techsnap.systems/'
+  },
+  {
     title: 'Coder Radio',
     description: 'A weekly talk show taking a pragmatic look at the art and business of Software Development and related technologies.',
     image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/b/b44de5fa-47c1-4e94-bf9e-c72f8d1c8f5d/cover_small.jpg',
