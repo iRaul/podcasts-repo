@@ -122,6 +122,12 @@ const dev = [
     url: 'https://hopeinsource.com/',
   },
   {
+    title: 'Semaphore Uncut',
+    description: 'Software industry pros discuss problems they’re currently solving with the products they\'re working on.',
+    image: 'https://gdurl.com/lRj3',
+    url: 'https://semaphoreci.com/podcast',
+  },
+  {
     title: 'User Error',
     description: 'Life is a series of mistakes, but that\'s what makes it interesting.',
     image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/8/85b580b3-f70b-4bdb-972e-6bc86843b731/cover_small.jpg',
