@@ -133,7 +133,7 @@ const startup = [
     url: 'https://anchor.fm/acelr8',
   },
   {
-    title: 'Startups Podcast',
+    title: 'Startup For The Rest Of Us',
     description: 'The MicroConf founders share their tumultuous life of two entrepreneurs.',
     image: 'https://gdurl.com/5Qg9',
     url: 'https://www.startupsfortherestofus.com/',
