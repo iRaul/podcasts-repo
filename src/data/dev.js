@@ -128,6 +128,12 @@ const dev = [
     image: 'https://s3.amazonaws.com/codenewbie-assets/basecs+podcast+cover+7+small.png',
     url: 'https://www.codenewbie.org/basecs',
   },
+  {
+    title: 'The Bike Shed',
+    rssOverride: ['description'],
+    description: "Let's bikeshed: dev experience, Ruby, Rails, JS and other shiny things.",
+    rss: 'https://rss.simplecast.com/podcasts/282/rss',
+  },
 ];
 
 export default dev;
