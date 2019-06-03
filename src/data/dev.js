@@ -122,6 +122,12 @@ const dev = [
     url: 'https://hopeinsource.com/',
   },
   {
+    title: 'Choose Linux',
+    description: 'The show that captures the excitement of discovering Linux.',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/b/bcfa14da-33ad-4749-b1a9-4b668e7aa8c7/cover_small.jpg',
+    url: 'https://chooselinux.show/'
+  },
+  {
     title: 'TechSNAP',
     description: 'Weekly Systems, Network, and Administration Podcast.',
     image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/9/95197d05-40d6-4e68-8e0b-2f586ce8dc55/cover_small.jpg',
