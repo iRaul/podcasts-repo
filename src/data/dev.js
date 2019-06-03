@@ -122,6 +122,12 @@ const dev = [
     url: 'https://hopeinsource.com/',
   },
   {
+    title: 'Linux Action News',
+    description: 'A weekly take on the free and open source world. ',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/d/dec90738-e640-45e5-b375-4573052f4bf4/cover_small.jpg',
+    url: 'https://linuxactionnews.com/'
+  },
+  {
     title: 'Choose Linux',
     description: 'The show that captures the excitement of discovering Linux.',
     image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/b/bcfa14da-33ad-4749-b1a9-4b668e7aa8c7/cover_small.jpg',
