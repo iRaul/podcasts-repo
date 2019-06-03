@@ -1,5 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import propTypes from 'prop-types';
+
+import { fetchDataFromRssFeed, validateRssData } from './Utilities';
 
 const Card = styled.a`
   background: #fff;
@@ -55,15 +58,60 @@ const Info = styled.div`
   }
 `;
 
-const Podcast = props => (
-  <Card href={props.url} target="_blank" rel="noopener noreferrer">
-    <Image image={props.image} />
+class Podcast extends React.Component {
+  constructor(props) {
+    super(props);
+    const { title = '', image = '', description = '', url = '' } = props;
+    this.state = { title, image, description, url };
+  }
 
-    <Info>
-      <h3>{props.title}</h3>
-      <p>{props.description}</p>
-    </Info>
-  </Card>
-);
+  componentDidMount = async () => {
+    const { rss = '' } = this.props;
+    if (rss) {
+      await this.getRssData(rss);
+    }
+  };
+
+  getRssData = async rssUrl => {
+    const rssData = await fetchDataFromRssFeed(rssUrl);
+    if (rssData) {
+      const { rssOverride = [] } = this.props;
+      [
+        { rssKey: 'title', dataKey: 'title' },
+        { rssKey: 'description', dataKey: 'description' },
+        { rssKey: 'link', dataKey: 'url' },
+        { rssKey: 'image.url', dataKey: 'image' },
+      ].forEach(property => {
+        const validatedRssData = validateRssData(rssData, rssOverride, property);
+        if (validatedRssData) {
+          this.setState(validatedRssData);
+        }
+      });
+    }
+  };
+
+  render = () => {
+    const { title, url, image, description } = this.state;
+    return (
+      <Card href={url} target="_blank" rel="noopener noreferrer">
+        <Image image={image} />
+
+        <Info>
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </Info>
+      </Card>
+    );
+  };
+}
+
+Podcast.propTypes = {
+  title: propTypes.string.isRequired,
+  image: propTypes.string,
+  url: propTypes.string,
+  description: propTypes.string,
+  rss: propTypes.string,
+  rssOverride: propTypes.array,
+};
 
 export default Podcast;

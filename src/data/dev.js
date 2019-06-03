@@ -128,6 +128,19 @@ const dev = [
       'https://3.bp.blogspot.com/-rM9WWDxF9Oo/V2Aq6xitPNI/AAAAAAAAOgM/DJ32nsyJxrQqjFARXKs3LR0Q09hCCbiQACK4B/s758/PTLogoWithTitleAndBorder256.png',
     url: 'https://www.programmingthrowdown.com/',
   },
+  {
+    title: 'BaseCS',
+    description:
+      'A podcast series that focuses on discussing computer science topics as humanly as possible.',
+    image: 'https://s3.amazonaws.com/codenewbie-assets/basecs+podcast+cover+7+small.png',
+    url: 'https://www.codenewbie.org/basecs',
+  },
+  {
+    title: 'The Bike Shed',
+    rssOverride: ['description'],
+    description: "Let's bikeshed: dev experience, Ruby, Rails, JS and other shiny things.",
+    rss: 'https://rss.simplecast.com/podcasts/282/rss',
+  },
 ];
 
 export default dev;
