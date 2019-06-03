@@ -121,6 +121,12 @@ const dev = [
     image: 'https://gdurl.com/cbvk',
     url: 'https://hopeinsource.com/',
   },
+  {
+    title: 'The Bike Shed',
+    rssOverride: ['description'],
+    description: "Let's bikeshed: dev experience, Ruby, Rails, JS and other shiny things.",
+    rss: 'https://rss.simplecast.com/podcasts/282/rss',
+  },
 ];
 
 export default dev;
