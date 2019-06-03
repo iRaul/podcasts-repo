@@ -122,6 +122,13 @@ const dev = [
     url: 'https://hopeinsource.com/',
   },
   {
+    title: 'Programming Throwdown',
+    description: 'Dedicated on detailed breakdown on various programming and technology topics.',
+    image:
+      'https://3.bp.blogspot.com/-rM9WWDxF9Oo/V2Aq6xitPNI/AAAAAAAAOgM/DJ32nsyJxrQqjFARXKs3LR0Q09hCCbiQACK4B/s758/PTLogoWithTitleAndBorder256.png',
+    url: 'https://www.programmingthrowdown.com/',
+  },
+  {
     title: 'BaseCS',
     description:
       'A podcast series that focuses on discussing computer science topics as humanly as possible.',
