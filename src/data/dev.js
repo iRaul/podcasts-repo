@@ -122,6 +122,12 @@ const dev = [
     url: 'https://hopeinsource.com/',
   },
   {
+    title: 'Coder Radio',
+    description: 'A weekly talk show taking a pragmatic look at the art and business of Software Development and related technologies.',
+    image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/b/b44de5fa-47c1-4e94-bf9e-c72f8d1c8f5d/cover_small.jpg',
+    url: 'https://coder.show/'
+  },
+  {
     title: 'LINUX Unplugged',
     description: 'Weekly Linux talk show with no script, no limits, surprise guests and tons of opinion.',
     image: 'https://assets.fireside.fm/file/fireside-images/podcasts/images/f/f31a453c-fa15-491f-8618-3f71f1d565e5/cover_small.jpg',
