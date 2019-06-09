@@ -10,8 +10,9 @@ const startup = [
     title: "Product Hunt Radio",
     description:
       "A weekly podcast with the people creating and exploring the future.",
-    image: "https://gdurl.com/IO2P",
     url: "https://www.producthunt.com/radio"
+    rss: 'https://feeds.simplecast.com/iCV67fGr',
+    rssOverride: ['description'],
   },
   {
     title: "StartUp Podcast",
@@ -42,15 +43,17 @@ const startup = [
   {
     title: "20 Minute VC",
     description: "Venture Capital, Startup Funding and The Pitch.",
-    image: "https://gdurl.com/xYw8",
     url: "http://www.thetwentyminutevc.com/"
+    rss: 'http://thetwentyminutevc.libsyn.com/rss',
+    rssOverride: ['title', 'description'],
   },
   {
     title: "Masters of Scale",
     description:
       "Legendary entrepreneur Reid Hoffman tests his theories with famous founders",
-    image: "https://gdurl.com/DmTU",
     url: "https://mastersofscale.com/"
+    rss: 'https://rss.art19.com/masters-of-scale',
+    rssOverride: ['title', 'description'],
   },
   {
     title: "Rocketship.fm",
@@ -102,17 +105,19 @@ const startup = [
   },
   {
     title: "Rad Dad",
+    rss: 'http://feeds.soundcloud.com/users/soundcloud:users:335201866/sounds.rss',
+    rssOverride: ['description'],
     description:
       "Stories from business leaders and intelligent parents from tech and beyond.",
-    image: "https://gdurl.com/nIG9",
     url: "https://www.raddadshow.com/"
   },
   {
     title: "Function",
     description:
       "A podcast about how technology is shaping culture and communications.",
-    image: "https://gdurl.com/bzJm",
     url: "https://glitch.com/culture/function/"
+    rss: 'https://feeds.simplecast.com/xlj1OXXW',
+    rssOverride: ['title', 'description'],
   },
   {
     title: "ETL",
@@ -145,8 +150,9 @@ const startup = [
     title: "A-Players",
     description:
       "Interviews with founders, venture builders, growth managers, ",
-    image: "https://gdurl.com/O1nU",
     url: "https://anchor.fm/acelr8"
+    rss: 'https://www.spreaker.com/show/2664825/episodes/feed',
+    rssOverride: ['description'],
   },
   {
   },

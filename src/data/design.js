@@ -13,14 +13,16 @@ const design = [
   },
   {
     title: 'User Defenders',
+    rss: 'https://pcr.apple.com/id1055121160',
+    rssOverride: ['title', 'description'],
     description: 'Inspiring Interviews with UX Superheros.',
-    image: 'https://gdurl.com/NsJ2',
     url: 'https://userdefenders.com/episodes/',
   },
   {
     title: 'UI Breakfast',
+    rss: 'https://feeds.simplecast.com/4MvgQ73R',
+    rssOverride: ['title', 'description'],
     description: 'Conversations about UI/UX design, products, marketing, and so much more.',
-    image: 'https://gdurl.com/E_8g',
     url: 'https://uibreakfast.com/category/podcast/',
   },
   {
@@ -74,8 +76,9 @@ const design = [
   },
   {
     title: 'Design Notes',
-    description: 'Design Notes is a show from about creative work and what it teaches us.',
-    image: 'https://gdurl.com/QiAo',
+    rss: 'http://designnotes.fm/rss',
+    rssOverride: ['description'],
+    description: 'Design Notes is a show about creative work and what it teaches us.',
     url: 'https://design.google/library/podcasts/',
   },
   {
