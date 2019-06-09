@@ -79,7 +79,7 @@ class Podcast extends React.Component {
       [
         { rssKey: 'title', dataKey: 'title' },
         { rssKey: 'description', dataKey: 'description' },
-        { rssKey: 'link', dataKey: 'url' },
+        { rssKey: 'links', dataKey: 'url' },
         { rssKey: 'image.url', dataKey: 'image' },
       ].forEach(property => {
         const validatedRssData = validateRssData(rssData, rssOverride, property);

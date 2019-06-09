@@ -2,7 +2,9 @@ import Parser from 'rss-parser';
 import has from 'lodash.has';
 import get from 'lodash.get';
 
-const parser = new Parser();
+const parser = new Parser({
+  customFields: { feed: [['link', 'links', { keepArray: true }]] },
+});
 
 // Array Suffling
 export const randomPodcast = a => {
@@ -20,6 +22,10 @@ export const fetchDataFromRssFeed = async rssUrl => parser.parseURL(CORS_PROXY +
 
 export const validateRssData = (rssData, rssOverride, property) => {
   if (has(rssData, property.rssKey) && !rssOverride.includes(property.dataKey)) {
-    return { [property.dataKey]: get(rssData, property.rssKey) };
+    let value = get(rssData, property.rssKey);
+    if (Array.isArray(value)) {
+      [value] = value.filter(entry => typeof entry === 'string');
+    }
+    return { [property.dataKey]: value };
   }
 };
