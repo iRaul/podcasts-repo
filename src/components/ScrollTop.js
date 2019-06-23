@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 import up from '../static/icons/chevron-up.svg';
 
@@ -43,10 +44,17 @@ const Button = styled.button`
   }
 `;
 
-const ScrollTop = props => (
-  <Button onClick={props.scrollToTop} type="button">
-    <img src={up} alt="Icon" />
-  </Button>
-);
+const ScrollTop = props => {
+  const { scrollToTop } = props;
+  return (
+    <Button onClick={scrollToTop} type="button">
+      <img src={up} alt="Icon" />
+    </Button>
+  );
+};
+
+ScrollTop.propTypes = {
+  scrollToTop: PropTypes.func.isRequired,
+};
 
 export default ScrollTop;

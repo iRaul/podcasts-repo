@@ -1,8 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import propTypes from 'prop-types';
-
-import { fetchDataFromRssFeed, validateRssData } from './Utilities';
 
 const Card = styled.a`
   background: #fff;
@@ -48,6 +45,9 @@ const Info = styled.div`
     margin-bottom: 4px;
     color: rgba(0, 0, 0, 1);
     font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   p {
@@ -58,60 +58,22 @@ const Info = styled.div`
   }
 `;
 
-class Podcast extends React.Component {
-  constructor(props) {
-    super(props);
-    const { title = '', image = '', description = '', url = '' } = props;
-    this.state = { title, image, description, url };
-  }
+const Podcast = props => {
+  const [propState, setPropState] = useState(props);
+  useEffect(() => {
+    setPropState(props);
+  }, [props]);
 
-  componentDidMount = async () => {
-    const { rss = '' } = this.props;
-    if (rss) {
-      await this.getRssData(rss);
-    }
-  };
+  return (
+    <Card href={propState.url} target="_blank" rel="noopener noreferrer" title={propState.title}>
+      <Image image={propState.image} />
 
-  getRssData = async rssUrl => {
-    const rssData = await fetchDataFromRssFeed(rssUrl);
-    if (rssData) {
-      const { rssOverride = [] } = this.props;
-      [
-        { rssKey: 'title', dataKey: 'title' },
-        { rssKey: 'description', dataKey: 'description' },
-        { rssKey: 'links', dataKey: 'url' },
-        { rssKey: 'image.url', dataKey: 'image' },
-      ].forEach(property => {
-        const validatedRssData = validateRssData(rssData, rssOverride, property);
-        if (validatedRssData) {
-          this.setState(validatedRssData);
-        }
-      });
-    }
-  };
-
-  render = () => {
-    const { title, url, image, description } = this.state;
-    return (
-      <Card href={url} target="_blank" rel="noopener noreferrer">
-        <Image image={image} />
-
-        <Info>
-          <h3>{title}</h3>
-          <p>{description}</p>
-        </Info>
-      </Card>
-    );
-  };
-}
-
-Podcast.propTypes = {
-  title: propTypes.string.isRequired,
-  image: propTypes.string,
-  url: propTypes.string,
-  description: propTypes.string,
-  rss: propTypes.string,
-  rssOverride: propTypes.array,
+      <Info>
+        <h3>{propState.title}</h3>
+        <p>{propState.description || 'loading...'}</p>
+      </Info>
+    </Card>
+  );
 };
 
 export default Podcast;
