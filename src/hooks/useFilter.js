@@ -8,7 +8,7 @@ export default (items, filter) => {
 
   useEffect(() => {
     setFilteredItems(items.filter(filterItem));
-  }, [filter]);
+  });
 
   return filteredItems;
 };
