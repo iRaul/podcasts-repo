@@ -11,16 +11,13 @@ const Card = styled.a`
   position: relative;
   overflow: hidden;
   text-decoration: none;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-column-gap: 10px;
 
   &:hover,
   &:active {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 24px;
-  }
-
-  &:after {
-    content: '';
-    display: table;
-    clear: both;
   }
 `;
 
@@ -33,8 +30,6 @@ const Image = styled.div`
   height: 100px;
   width: 100px;
   border-radius: 8px;
-  float: left;
-  margin-right: 10px;
 `;
 
 const Info = styled.div`
