@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Img from 'react-image';
 
 const Card = styled.a`
   background: #fff;
@@ -15,6 +16,13 @@ const Card = styled.a`
   grid-template-columns: 100px 1fr;
   grid-column-gap: 10px;
 
+  img {
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
   &:hover,
   &:active {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 24px;
@@ -22,10 +30,6 @@ const Card = styled.a`
 `;
 
 const Image = styled.div`
-  background-image: url(${props => props.image});
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   background-color: #f6f7f8;
   height: 100px;
   width: 100px;
@@ -52,7 +56,10 @@ const Info = styled.div`
 
 const Podcast = props => (
   <Card href={props.url} target="_blank" rel="noopener noreferrer">
-    <Image image={props.image} />
+    <Img
+      src={props.image}
+      loader={<Image />}
+      unloader={<Image />} />
 
     <Info>
       <h3>{props.title}</h3>
