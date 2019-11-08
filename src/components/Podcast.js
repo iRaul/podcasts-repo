@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Img from 'react-image';
+import LazyLoad from 'react-lazyload';
 
 const Card = styled.a`
   background: #fff;
@@ -16,13 +16,6 @@ const Card = styled.a`
   grid-template-columns: 100px 1fr;
   grid-column-gap: 10px;
 
-  img {
-    height: 100px;
-    width: 100px;
-    border-radius: 8px;
-    object-fit: cover;
-  }
-
   &:hover,
   &:active {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 24px;
@@ -30,6 +23,10 @@ const Card = styled.a`
 `;
 
 const Image = styled.div`
+  background-image: url(${props => props.image});
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: #f6f7f8;
   height: 100px;
   width: 100px;
@@ -54,16 +51,15 @@ const Info = styled.div`
   }
 `;
 
-const Podcast = props => (
-  <Card href={props.url} target="_blank" rel="noopener noreferrer">
-    <Img
-      src={props.image}
-      loader={<Image />}
-      unloader={<Image />} />
-
+// eslint-disable-next-line react/prop-types
+const Podcast = ({ url, image, title, description }) => (
+  <Card href={url} target="_blank" rel="noopener noreferrer">
+    <LazyLoad height={100} once>
+      <Image image={image} />
+    </LazyLoad>
     <Info>
-      <h3>{props.title}</h3>
-      <p>{props.description}</p>
+      <h3>{title}</h3>
+      <p>{description}</p>
     </Info>
   </Card>
 );
