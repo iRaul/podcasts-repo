@@ -12,6 +12,12 @@ const design = [
     url: 'https://www.productbreakfastclub.com/',
   },
   {
+    title: 'Product Bakery',
+    description: 'Bringing people from all functions together to talk about building products.',
+    image: 'http://tiny.cc/o5x0tz',
+    url: 'product-bakery.com',
+  },
+  {
     title: 'User Defenders',
     description: 'Inspiring Interviews with UX Superheros.',
     image: 'http://tiny.cc/kutiaz',
